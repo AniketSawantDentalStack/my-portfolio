@@ -27,7 +27,7 @@ import postgreLogo from "./assets/tech_logo/postgre.png";
 import DLetter from "./assets/company_logo/DLetter.png";
 
 // Education Section Logo's
-import YCMOULogo from "./assets/education_logo/YCMULogo.png";
+import YCMOULogo from "./assets/education_logo/YCMUlogo.png";
 import RCULogo from "./assets/education_logo/RCULogo.jpg";
 
 // Project Section Logo's
