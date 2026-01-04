@@ -31,9 +31,9 @@ import YCMOULogo from "./assets/education_logo/YCMUlogo.png";
 import RCULogo from "./assets/education_logo/RCULogo.jpg";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
+import productManagementLogo from "./assets/work_logo/product_management_image.png";
+// import taskremLogo from "./assets/work_logo/task_rem.png";
+// import imagesearchLogo from "./assets/work_logo/image_search.png";
 import removebgLogo from "./assets/work_logo/remove_bg.png";
 
 export const SkillsInfo = [
@@ -127,45 +127,44 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
+    title: "Products Management using SpringBoot",
     description:
       "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    image: productManagementLogo,
+    tags: ["Java", "JDBC", "API"],
+    github: "https://github.com/AniketSawant1047/Products-using-SpringBoot",
+    webapp: "https://github.com/AniketSawant1047/Products-using-SpringBoot",
   },
 
-  {
-    id: 4,
-    title: "Task Reminder Chrome Extension Tool",
-    description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  },
+  // {
+  //   id: 4,
+  //   title: "Task Reminder Chrome Extension Tool",
+  //   description:
+  //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+  //   image: taskremLogo,
+  //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+  //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
+  //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+  // },
 
-  {
-    id: 7,
-    title: "Image Search App",
-    description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
-  },
+  // {
+  //   id: 7,
+  //   title: "Image Search App",
+  //   description:
+  //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+  //   image: imagesearchLogo,
+  //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+  //   github: "https://github.com/codingmastr/Image-Search-App",
+  //   webapp: "https://imagsearch.netlify.app/",
+  // },
   {
     id: 8,
-    title: "Image Background Remover",
+    title: "Remove-BG",
     description:
-      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+      "An efficient background removal app built with HTML JS CSS and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
     image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
+    tags: ["Image Processing", "HTML", "CSS", "Javascript"],
+    github: "https://github.com/AniketSawantDentalStack/remove-bg",
+    webapp: "https://remove-bg-omega-red.vercel.app/",
   },
 ];
