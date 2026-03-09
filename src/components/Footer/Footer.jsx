@@ -39,7 +39,7 @@ const Footer = () => {
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/AniketSawant1047/" },
             // { icon: <FaTwitter />, link: "https://twitter.com/CodingMaster6?s=09" },
-            { icon: <FaLinkedin />, link: "https://github.com/AniketSawantDentalStack" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/aniket-sawant-7095a7261/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/anik_voy/?igsh=MTQ4dW10ZjJ4bmNkZA%3D%3D#" },
             { icon: <FaYoutube />, link: "https://www.youtube.com/@aniketsawant6772" },
             
