@@ -3,6 +3,10 @@ import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile1.jpeg';
 
 const About = () => {
+  const joiningDate = new Date('2022-11-14');
+const today = new Date();
+const diffInMs = today - joiningDate;
+const experienceYears = (diffInMs / (1000 * 60 * 60 * 24 * 365.25)).toFixed(1);
   return (
     <section
       id="about"
@@ -40,11 +44,11 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 3.2 years of experience in
+            { `I am a full-stack developer with over ${experienceYears} years of experience in
             building scalable web applications. Skilled in both front-end and
             back-end development, I specialize in the Full stack and other
             modern technologies to create seamless user experiences and
-            efficient solutions.
+            efficient solutions.`}
           </p>
           {/* Resume Button */}
           <a
